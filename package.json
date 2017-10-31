@@ -1,25 +1,8 @@
 {
-  "name": "boilerplate-babel-stylus-pug-livereload-webpack",
-  "version": "1.0.0",
-  "description": "Simple no-frills boilerplate for babel, stylus, and pug via webpack with livereload",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "scripts": {
     "webpack": "webpack",
     "live": "webpack-dev-server --content-base build/"
   },
-  "keywords": [
-    "stylus",
-    "pug",
-    "webpack",
-    "livereload",
-    "dev-server"
-  ],
-  "author": "Zee1234",
-  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
